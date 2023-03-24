@@ -57,7 +57,5 @@ const zucchine = [
 ];
 
 let somma = 0;
-zucchine.forEach(zucchina => {
-  somma += zucchina.peso;
-})
+zucchine.forEach(zucchina => somma += zucchina.peso);
 console.log(`Il peso totale delle zucchine è di ${somma.toFixed(2)}kg`);
